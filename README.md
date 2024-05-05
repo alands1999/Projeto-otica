@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ótica - Aplicação React Next.js
 
-## Getting Started
+Este projeto é uma aplicação web desenvolvida utilizando React com Next.js, projetada para uma ótica. O código foi organizado em módulos, onde cada módulo corresponde a uma seção da página principal.
 
-First, run the development server:
+## Estrutura do Projeto
+O projeto segue a seguinte estrutura de componentes:
+
+- Página Principal (index.js): Responsável por montar a estrutura principal da página, incluindo a importação de todos os módulos.
+- Topo: Seção que contém a barra de navegação.
+- Capa: Seção inicial que pode conter imagens ou informações principais sobre a ótica.
+- Secao_produtos: Módulo responsável por exibir os produtos oferecidos pela ótica.
+- Secao_sobre: Módulo que apresenta informações sobre a ótica, sua história, missão, visão, etc.
+- Secao_contato: Módulo para exibir informações de contato, como endereço, telefone e formulário de contato.
+- Rodape: Seção final contendo informações adicionais e links úteis.
+
+## Como Executar
+
+- Certifique-se de ter o Node.js e o npm instalados em sua máquina.
+- Clone este repositório para o seu ambiente de desenvolvimento.
+- Navegue até o diretório do projeto e execute npm install para instalar as dependências.
+
+```bash
+npm install
+# or
+yarn install
+```
+
+- Após a instalação das dependências, execute npm run dev para iniciar o servidor de desenvolvimento.
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Abra o seu navegador e acesse http://localhost:3000 para visualizar a aplicação.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Tecnologias Utilizadas
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- React
+- Next.js
+- HTML5
+- CSS3
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Projeto ótica: 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![1](https://github.com/alands1999/Projeto-otica/assets/150439841/a86019e6-7213-4026-82f5-cf1e59c17d34)!
+[2](https://github.com/alands1999/Projeto-otica/assets/150439841/030e72b4-2a4e-4dc8-9f47-c0cc93bd603e)
+![3](https://github.com/alands1999/Projeto-otica/assets/150439841/bd102a13-fdba-4d09-bceb-4b4fad15ddad)
+![4](https://github.com/alands1999/Projeto-otica/assets/150439841/2a6655df-fcfe-489d-a0d7-c3e3da4b2644)
+![5](https://github.com/alands1999/Projeto-otica/assets/150439841/1520dc25-e0fb-4790-a0f4-cb74c343c801)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
