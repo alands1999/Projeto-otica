@@ -42,8 +42,8 @@ npm run dev
 
 ## Projeto ótica: 
 
-![1](https://github.com/alands1999/Projeto-otica/assets/150439841/a86019e6-7213-4026-82f5-cf1e59c17d34)!
-[2](https://github.com/alands1999/Projeto-otica/assets/150439841/030e72b4-2a4e-4dc8-9f47-c0cc93bd603e)
+![1](https://github.com/alands1999/Projeto-otica/assets/150439841/a86019e6-7213-4026-82f5-cf1e59c17d34)
+![2](https://github.com/alands1999/Projeto-otica/assets/150439841/030e72b4-2a4e-4dc8-9f47-c0cc93bd603e)
 ![3](https://github.com/alands1999/Projeto-otica/assets/150439841/bd102a13-fdba-4d09-bceb-4b4fad15ddad)
 ![4](https://github.com/alands1999/Projeto-otica/assets/150439841/2a6655df-fcfe-489d-a0d7-c3e3da4b2644)
 ![5](https://github.com/alands1999/Projeto-otica/assets/150439841/1520dc25-e0fb-4790-a0f4-cb74c343c801)
