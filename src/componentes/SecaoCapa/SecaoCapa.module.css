@@ -1,0 +1,79 @@
+.container {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+.secao_capa {
+    height: 90vh;
+    width: 100%;
+    background-image: URL("../../../public/capa.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_textos {
+    display: flex;
+    width: 100%;
+}
+.textos {
+    width: 50%;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.textos_edit h1, .textos_edit p {
+    margin: 20px 0px;
+}
+.textos_edit p {
+    font-size: 25px;
+    color: #c4c4c4;
+}
+.textos_edit h1 {
+    font-size: 35px;
+    color: #fff;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .textos_edit {
+       background-color: rgba(0, 0, 0, 0.356);
+       width: 100%;
+    }
+    .textos {
+        align-items: flex-start;
+        width: 70%;
+    }
+    .textos_edit p {
+        font-size: 35px;
+        margin: 0px;
+    }
+    .textos_edit h1 {
+        font-size: 45px;
+        letter-spacing: 15px;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .textos {
+        align-items: flex-start;
+        width: 60%;
+    }
+    .textos_edit h1 {
+        font-size: 40px;
+    }
+    .textos_edit p {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px) {
+
+     .textos {
+        align-items: center;
+        width: 60%;
+    }
+}

@@ -1,0 +1,52 @@
+.container_principal {
+    width: 100%;
+    padding: 100px 20px;
+    background-color: #f8f7ff;
+}
+.texto_superior {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.texto_superior p {
+    line-height: 30px;
+}
+.container_caixas {
+    max-width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.caixa {
+    max-height: 300px;
+    width: 50%;
+}
+.img {
+    width: 100%;
+    height: 100%;
+}
+.caixa_texto {
+    max-height: 300px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    background-color: #fff;
+
+    justify-content: center;
+    text-align: center;
+}
+.caixa_texto h4 {
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+.caixa_texto p {
+    color: #4a4a4a;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
